@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  height: 10rem;
+  width: 15rem;
+  border-radius:5px 5px 0 0 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.box {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 25rem;
+  width: 15rem;
+  border-radius: 5px;
+
+}
+
+h2 {
+  padding-left: 18px;
+  padding-top: 10px;
+  
+}
+.switch{
+  margin-right: 20px;
+}
+
+p {
+  padding-left: 18px;
+  padding-top: 5px;
+}
+
+.white {
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2cm;
+  background: whitesmoke;
+  box-shadow: 1px 1px  6px rgba(0, 0, 0, 0.354);
+}
+.white .box{
+  box-shadow: 0 0  6px rgba(0, 0, 0, 0.354);
+}
+.dark {
+  background-color: rgb(22, 22, 31);
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2cm;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.dark .box{
+  box-shadow:0 0 2px white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+h2{
+  
+  margin-bottom: 0;
+}
+.navbar{
+  height: 4rem;
+  margin: 7px;
+ 
+}
+.para{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  
 }
